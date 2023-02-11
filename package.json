@@ -1,0 +1,18 @@
+{
+  "name": "tools_website",
+  "version": "1.0.0",
+  "description": "List all Caesar Cipher shifts",
+  "main": "caesar.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Vidar Oxlund",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    
+  }
+}
