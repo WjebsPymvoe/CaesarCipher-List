@@ -2,10 +2,10 @@
   "name": "tools_website",
   "version": "1.0.0",
   "description": "List all Caesar Cipher shifts",
-  "main": "caesar.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Vidar Oxlund",
   "license": "ISC",
@@ -13,6 +13,14 @@
     "parcel": "^2.8.3"
   },
   "dependencies": {
-    
-  }
+    "core-js": "^3.27.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WjebsPymvoe/CaesarCipher-List.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WjebsPymvoe/CaesarCipher-List/issues"
+  },
+  "homepage": "https://github.com/WjebsPymvoe/CaesarCipher-List#readme"
 }
