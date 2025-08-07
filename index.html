@@ -27,11 +27,17 @@
     </header>
     <main>
       <section class="left">
-        <label for="input"></label>
-        <input placeholder="Type input..." id="word">
-        <button class="btn-compute">Compute</button>
-        <button class="btn-clear">Clear!</button>
-        <script>
+		<div>
+			<label for="input"></label>
+			<input aria-label="Type input..." placeholder="Type input..." id="word">
+			<button class="btn-compute">Compute</button>
+			<button class="btn-clear">Clear!</button>
+		</div>
+		<div>
+			<input type="checkbox" id="alphabet-toggle">
+			<label for="alphabet-toggle">Include "Æ, Ø, Å"</label>
+        </div>
+		<script>
 
         </script>
       </section>

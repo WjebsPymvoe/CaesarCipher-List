@@ -4,6 +4,7 @@ This tool returns a list of all Caesar Cipher shifts of the input.
 ```
 ABC
 BCD
+CDE
 ...
 ```
 
